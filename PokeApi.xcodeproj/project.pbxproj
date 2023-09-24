@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1218B01B2ABC5A4600F35839 /* ApiManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1218B00E2ABC59A400F35839 /* ApiManagerTest.swift */; };
-		1218B01C2ABC5A6300F35839 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CABC672ABC41AD004E21E3 /* ApiManager.swift */; };
 		1218B01D2ABC5A7900F35839 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CABC6A2ABC4899004E21E3 /* Utils.swift */; };
 		12CABC612ABC4190004E21E3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CABC602ABC4190004E21E3 /* main.swift */; };
 		12CABC682ABC41AD004E21E3 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CABC672ABC41AD004E21E3 /* ApiManager.swift */; };
@@ -84,8 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				12CABC692ABC488D004E21E3 /* Utils */,
-				12CABC602ABC4190004E21E3 /* main.swift */,
 				12CABC672ABC41AD004E21E3 /* ApiManager.swift */,
+				12CABC602ABC4190004E21E3 /* main.swift */,
 			);
 			path = PokeApi;
 			sourceTree = "<group>";
@@ -187,7 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1218B01C2ABC5A6300F35839 /* ApiManager.swift in Sources */,
 				1218B01B2ABC5A4600F35839 /* ApiManagerTest.swift in Sources */,
 				1218B01D2ABC5A7900F35839 /* Utils.swift in Sources */,
 			);

@@ -1,6 +1,7 @@
 import Foundation
 
 class ApiManager {
+    
     static func getPokemonBy(nameOrId: String) throws -> Pokemon? {
         guard let url = URL(string: Utils.baseURL + nameOrId) else {
             throw ApiError.invalidName
@@ -16,4 +17,5 @@ class ApiManager {
         
         return result
     }
+    
 }
