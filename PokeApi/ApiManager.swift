@@ -3,7 +3,10 @@ import Foundation
 class ApiManager {
     
     static func getPokemonBy(nameOrId: String) throws -> Pokemon? {
-        guard let url = URL(string: Utils.baseURL + nameOrId) else {
+        // add static api key for authentication
+        let API_KEY = "fa877ee9-a9ac-4b59-b725-601025b1e946"
+        
+        guard let url = URL(string: Utils.baseURL + nameOrId + API_KEY) else {
             throw ApiError.invalidName
         }
         
