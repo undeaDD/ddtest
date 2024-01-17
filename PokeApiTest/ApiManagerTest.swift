@@ -1,5 +1,6 @@
 import XCTest
 
+
 class ApiManagerTests: XCTestCase {
     
     func testGetPokemonByValidNameOrId() {
